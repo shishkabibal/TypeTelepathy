@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>22A380017</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>CFBundleExecutable</key>
+	<string>IMDPersistenceAgent</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.imdpersistence.IMDPersistenceAgent</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>IMDPersistenceAgent</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>10.0</string>
+	<key>CFBundleSignature</key>
+	<string>iMDb</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array/>
+	<key>CFBundleVersion</key>
+	<string>1000</string>
+	<key>CFBundleVisibleComponentName</key>
+	<string>Messages Database Agent</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>23B2070</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>14.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B2070</string>
+	<key>DTSDKName</key>
+	<string>macosx14.1.internal</string>
+	<key>DTXcode</key>
+	<string>1500</string>
+	<key>DTXcodeBuild</key>
+	<string>15A6160m</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.1</string>
+	<key>NSServices</key>
+	<array/>
+	<key>UTExportedTypeDeclarations</key>
+	<array/>
+	<key>UTImportedTypeDeclarations</key>
+	<array/>
+	<key>XPCService</key>
+	<dict>
+		<key>RunLoopType</key>
+		<string>NSRunLoop</string>
+		<key>ServiceType</key>
+		<string>User</string>
+		<key>_AllowedClients</key>
+		<array>
+			<string>identifier = com.apple.MobileSMS.spotlight and anchor apple</string>
+			<string>identifier = com.apple.imagent and anchor apple</string>
+			<string>identifier = com.apple.imdmessageservices.IMDMessageServicesAgent and anchor apple</string>
+			<string>identifier = com.apple.Safari and anchor apple</string>
+			<string>identifier = com.apple.Safari.SandboxBroker and anchor apple</string>
+			<string>identifier = com.apple.SafariTechnologyPreview and anchor apple</string>
+			<string>identifier = com.apple.SafariTechnologyPreview.SandboxBroker and anchor apple</string>
+			<string>identifier = com.apple.Safari and certificate root = H"c9270c5bd7a6a89de3373797fa2a9db7558842ad"</string>
+			<string>identifier = com.apple.Safari.SandboxBroker and certificate root = H"c9270c5bd7a6a89de3373797fa2a9db7558842ad"</string>
+			<string>identifier = com.apple.Safari.automation and anchor apple</string>
+			<string>identifier = com.apple.Safari.automation.SandboxBroker and anchor apple</string>
+			<string>identifier = com.apple.Safari.automation and certificate root = H"c9270c5bd7a6a89de3373797fa2a9db7558842ad"</string>
+			<string>identifier = com.apple.Safari.automation.SandboxBroker and certificate root = H"c9270c5bd7a6a89de3373797fa2a9db7558842ad"</string>
+			<string>identifier = com.apple.iChat and anchor apple</string>
+			<string>identifier = com.apple.AddressBook.FaceTimeService and anchor apple</string>
+			<string>identifier = com.apple.imtool and anchor apple</string>
+			<string>identifier = com.apple.assistantd and anchor apple</string>
+			<string>identifier = com.apple.ContactsAgent and anchor apple</string>
+			<string>identifier = com.apple.messages.AssistantExtension and anchor apple</string>
+			<string>identifier = com.apple.IMAutomaticHistoryDeletionAgent and anchor apple</string>
+			<string>identifier = com.apple.messages.StorageManagementExtension and anchor apple</string>
+			<string>identifier = com.apple.controlcenter and anchor apple</string>
+			<string>identifier = com.apple.photolibraryd and anchor apple</string>
+			<string>identifier = com.apple.gamecenter.GameCenterUIService and anchor apple</string>
+			<string>identifier = com.apple.FaceTime and anchor apple</string>
+			<string>identifier = "com.apple.knowledge-agent" and anchor apple</string>
+			<string>identifier = com.apple.finder and anchor apple</string>
+			<string>identifier = com.apple.sociallayerd and anchor apple</string>
+			<string>identifier = com.apple.coreduetd and anchor apple</string>
+			<string>identifier = com.apple.peopled and anchor apple</string>
+			<string>identifier = com.apple.asktod and anchor apple</string>
+		</array>
+	</dict>
+</dict>
+</plist>

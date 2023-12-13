@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D388E75D2093868300441C31 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D388E7592093868300441C31 /* ZKSwizzle.m */; };
+		D388E75E2093868300441C31 /* TypeTelepathy.m in Sources */ = {isa = PBXBuildFile; fileRef = D388E75B2093868300441C31 /* TypeTelepathy.m */; };
+		D3B2DA622B2A000B006AA5E0 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3B2DA612B2A000B006AA5E0 /* Icon.icns */; };
+		D3B2DA682B2A002D006AA5E0 /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2DA632B2A002D006AA5E0 /* IMCore.framework */; };
+		D3B2DA692B2A002D006AA5E0 /* IMSharedUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2DA642B2A002D006AA5E0 /* IMSharedUtilities.framework */; };
+		D3B2DA6A2B2A002D006AA5E0 /* SocialAppsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2DA652B2A002D006AA5E0 /* SocialAppsCore.framework */; };
+		D3B2DA6B2B2A002D006AA5E0 /* IMDPersistence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2DA662B2A002D006AA5E0 /* IMDPersistence.framework */; };
+		D3B2DA6C2B2A002D006AA5E0 /* IDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B2DA672B2A002D006AA5E0 /* IDS.framework */; };
+		D3F2E9CA2B250F1B00FE807F /* Typing.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9C62B250F1B00FE807F /* Typing.tiff */; };
+		D3F2E9CB2B250F1B00FE807F /* Read@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9C72B250F1B00FE807F /* Read@2x.tiff */; };
+		D3F2E9CC2B250F1B00FE807F /* Typing@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9C82B250F1B00FE807F /* Typing@2x.tiff */; };
+		D3F2E9CD2B250F1B00FE807F /* Read.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9C92B250F1B00FE807F /* Read.tiff */; };
+		D3F2E9D02B25194600FE807F /* Blank.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9CE2B25194600FE807F /* Blank.tiff */; };
+		D3F2E9D12B25194600FE807F /* Blank@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D3F2E9CF2B25194600FE807F /* Blank@2x.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D388E74F2093866B00441C31 /* TypeTelepathy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeTelepathy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D388E7522093866B00441C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D388E7592093868300441C31 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		D388E75A2093868300441C31 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		D388E75B2093868300441C31 /* TypeTelepathy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTelepathy.m; sourceTree = "<group>"; };
+		D3B2DA612B2A000B006AA5E0 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		D3B2DA632B2A002D006AA5E0 /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMCore.framework; path = TypeTelepathy/IMCore.framework; sourceTree = "<group>"; };
+		D3B2DA642B2A002D006AA5E0 /* IMSharedUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMSharedUtilities.framework; path = TypeTelepathy/IMSharedUtilities.framework; sourceTree = "<group>"; };
+		D3B2DA652B2A002D006AA5E0 /* SocialAppsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocialAppsCore.framework; path = TypeTelepathy/SocialAppsCore.framework; sourceTree = "<group>"; };
+		D3B2DA662B2A002D006AA5E0 /* IMDPersistence.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMDPersistence.framework; path = TypeTelepathy/IMDPersistence.framework; sourceTree = "<group>"; };
+		D3B2DA672B2A002D006AA5E0 /* IDS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDS.framework; path = TypeTelepathy/IDS.framework; sourceTree = "<group>"; };
+		D3F2E9812B25026200FE807F /* IMDPersistentAttachmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDPersistentAttachmentController.h; sourceTree = "<group>"; };
+		D3F2E9822B25026200FE807F /* IMAttachmentMessagePartChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAttachmentMessagePartChatItem.h; sourceTree = "<group>"; };
+		D3F2E9832B25026200FE807F /* IDSIDQueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSIDQueryController.h; sourceTree = "<group>"; };
+		D3F2E9842B25026200FE807F /* IMFMFSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFMFSession.h; sourceTree = "<group>"; };
+		D3F2E9852B25026200FE807F /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9862B25026200FE807F /* IMFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFileTransfer.h; sourceTree = "<group>"; };
+		D3F2E9872B25026200FE807F /* FMFXPCInternalClientProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMFXPCInternalClientProtocol-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9882B25026200FE807F /* IMNickname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNickname.h; sourceTree = "<group>"; };
+		D3F2E9892B25026200FE807F /* IMFileTransferCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMFileTransferCenter.h; sourceTree = "<group>"; };
+		D3F2E98A2B25026200FE807F /* IMPinnedConversationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPinnedConversationsController.h; sourceTree = "<group>"; };
+		D3F2E98B2B25026200FE807F /* IMNicknameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNicknameController.h; sourceTree = "<group>"; };
+		D3F2E98C2B25026200FE807F /* IMTranscriptChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTranscriptChatItem.h; sourceTree = "<group>"; };
+		D3F2E98D2B25026200FE807F /* IMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPerson.h; sourceTree = "<group>"; };
+		D3F2E98E2B25026200FE807F /* IMChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMChatItem.h; sourceTree = "<group>"; };
+		D3F2E98F2B25026200FE807F /* TUConversationManagerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUConversationManagerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9902B25026200FE807F /* IMChatHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMChatHistoryController.h; sourceTree = "<group>"; };
+		D3F2E9912B25026200FE807F /* IMTypingChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTypingChatItem.h; sourceTree = "<group>"; };
+		D3F2E9922B25026200FE807F /* _IDSIDQueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _IDSIDQueryController.h; sourceTree = "<group>"; };
+		D3F2E9932B25026200FE807F /* FMFSessionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMFSessionDelegate-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9942B25026200FE807F /* IMHandleRegistrar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMHandleRegistrar.h; sourceTree = "<group>"; };
+		D3F2E9952B25026200FE807F /* IMItemsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMItemsController.h; sourceTree = "<group>"; };
+		D3F2E9962B25026200FE807F /* IMHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMHandle.h; sourceTree = "<group>"; };
+		D3F2E9972B25026200FE807F /* IMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMService.h; sourceTree = "<group>"; };
+		D3F2E9982B25026200FE807F /* FMFSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFSession.h; sourceTree = "<group>"; };
+		D3F2E9992B25026200FE807F /* IMChatRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMChatRegistry.h; sourceTree = "<group>"; };
+		D3F2E99A2B25026200FE807F /* ETiOSMacBalloonPluginDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETiOSMacBalloonPluginDataSource.h; sourceTree = "<group>"; };
+		D3F2E99B2B25026200FE807F /* IMAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAccountController.h; sourceTree = "<group>"; };
+		D3F2E99C2B25026200FE807F /* FMFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFLocation.h; sourceTree = "<group>"; };
+		D3F2E99D2B25026200FE807F /* IMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMItem.h; sourceTree = "<group>"; };
+		D3F2E99E2B25026200FE807F /* IMDDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDDController.h; sourceTree = "<group>"; };
+		D3F2E99F2B25026200FE807F /* IMGUIDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMGUIDItem.h; sourceTree = "<group>"; };
+		D3F2E9A02B25026200FE807F /* IMNicknameAvatarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNicknameAvatarImage.h; sourceTree = "<group>"; };
+		D3F2E9A12B25026200FE807F /* IDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDS.h; sourceTree = "<group>"; };
+		D3F2E9A22B25026200FE807F /* IMMessageChatItem-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMMessageChatItem-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9A32B25026200FE807F /* IDSDestination-Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDSDestination-Additions.h"; sourceTree = "<group>"; };
+		D3F2E9A42B25026200FE807F /* IMInlineReplyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMInlineReplyController.h; sourceTree = "<group>"; };
+		D3F2E9A52B25026200FE807F /* IMTextMessagePartChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTextMessagePartChatItem.h; sourceTree = "<group>"; };
+		D3F2E9A62B25026200FE807F /* IMMessageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageItem.h; sourceTree = "<group>"; };
+		D3F2E9A72B25026200FE807F /* IDSInternalQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSInternalQueueController.h; sourceTree = "<group>"; };
+		D3F2E9A82B25026200FE807F /* IMMessageItem-IMChat_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMMessageItem-IMChat_Internal.h"; sourceTree = "<group>"; };
+		D3F2E9A92B25026300FE807F /* FMFHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFHandle.h; sourceTree = "<group>"; };
+		D3F2E9AA2B25026300FE807F /* IMCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCore.h; sourceTree = "<group>"; };
+		D3F2E9AB2B25026300FE807F /* IMAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAccount.h; sourceTree = "<group>"; };
+		D3F2E9AC2B25026300FE807F /* IMRemoteObjectCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMRemoteObjectCoding.h; sourceTree = "<group>"; };
+		D3F2E9AD2B25026300FE807F /* HWiOSMacBalloonDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWiOSMacBalloonDataSource.h; sourceTree = "<group>"; };
+		D3F2E9AE2B25026300FE807F /* IMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMChat.h; sourceTree = "<group>"; };
+		D3F2E9AF2B25026300FE807F /* IMChatTranscriptItem-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMChatTranscriptItem-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9B02B25026300FE807F /* IMHandleAvailabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMHandleAvailabilityManager.h; sourceTree = "<group>"; };
+		D3F2E9B12B25026300FE807F /* IMSendProgressDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMSendProgressDelegate-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9B22B25026300FE807F /* IMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessage.h; sourceTree = "<group>"; };
+		D3F2E9B32B25026300FE807F /* Presentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presentity.h; sourceTree = "<group>"; };
+		D3F2E9B42B25026300FE807F /* IMMessageChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageChatItem.h; sourceTree = "<group>"; };
+		D3F2E9B52B25026300FE807F /* SKStatusSubscriptionServiceDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKStatusSubscriptionServiceDelegate-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9B62B25026300FE807F /* IMTranscriptPluginChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTranscriptPluginChatItem.h; sourceTree = "<group>"; };
+		D3F2E9B72B25026300FE807F /* IMDirectlyObservableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDirectlyObservableObject.h; sourceTree = "<group>"; };
+		D3F2E9B82B25026300FE807F /* IMMessagePartChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessagePartChatItem.h; sourceTree = "<group>"; };
+		D3F2E9B92B25026300FE807F /* IMPluginChatItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPluginChatItemProtocol.h; sourceTree = "<group>"; };
+		D3F2E9BA2B25026300FE807F /* IMAggregateAttachmentMessagePartChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAggregateAttachmentMessagePartChatItem.h; sourceTree = "<group>"; };
+		D3F2E9BB2B25026300FE807F /* IMSystemMonitorListener-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMSystemMonitorListener-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9BC2B25026300FE807F /* IMVisibleAssociatedMessageHost-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IMVisibleAssociatedMessageHost-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9BD2B25026300FE807F /* INSpeakable-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INSpeakable-Protocol.h"; sourceTree = "<group>"; };
+		D3F2E9C62B250F1B00FE807F /* Typing.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Typing.tiff; sourceTree = "<group>"; };
+		D3F2E9C72B250F1B00FE807F /* Read@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Read@2x.tiff"; sourceTree = "<group>"; };
+		D3F2E9C82B250F1B00FE807F /* Typing@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Typing@2x.tiff"; sourceTree = "<group>"; };
+		D3F2E9C92B250F1B00FE807F /* Read.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Read.tiff; sourceTree = "<group>"; };
+		D3F2E9CE2B25194600FE807F /* Blank.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Blank.tiff; sourceTree = "<group>"; };
+		D3F2E9CF2B25194600FE807F /* Blank@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Blank@2x.tiff"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D388E74C2093866B00441C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B2DA692B2A002D006AA5E0 /* IMSharedUtilities.framework in Frameworks */,
+				D3B2DA6C2B2A002D006AA5E0 /* IDS.framework in Frameworks */,
+				D3B2DA682B2A002D006AA5E0 /* IMCore.framework in Frameworks */,
+				D3B2DA6B2B2A002D006AA5E0 /* IMDPersistence.framework in Frameworks */,
+				D3B2DA6A2B2A002D006AA5E0 /* SocialAppsCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D388E7462093866B00441C31 = {
+			isa = PBXGroup;
+			children = (
+				D388E7512093866B00441C31 /* TypeTelepathy */,
+				D388E7502093866B00441C31 /* Products */,
+				D3F2EA232B2535D100FE807F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D388E7502093866B00441C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D388E74F2093866B00441C31 /* TypeTelepathy.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D388E7512093866B00441C31 /* TypeTelepathy */ = {
+			isa = PBXGroup;
+			children = (
+				D388E7582093868300441C31 /* ZKSwizzle */,
+				D388E75B2093868300441C31 /* TypeTelepathy.m */,
+				D3F2E9802B25024F00FE807F /* IMCore */,
+				D3F2E97E2B25021000FE807F /* Resources */,
+			);
+			path = TypeTelepathy;
+			sourceTree = "<group>";
+		};
+		D388E7582093868300441C31 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				D388E75A2093868300441C31 /* ZKSwizzle.h */,
+				D388E7592093868300441C31 /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+		D3F2E97E2B25021000FE807F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3B2DA612B2A000B006AA5E0 /* Icon.icns */,
+				D388E7522093866B00441C31 /* Info.plist */,
+				D3F2E9C92B250F1B00FE807F /* Read.tiff */,
+				D3F2E9C72B250F1B00FE807F /* Read@2x.tiff */,
+				D3F2E9CE2B25194600FE807F /* Blank.tiff */,
+				D3F2E9CF2B25194600FE807F /* Blank@2x.tiff */,
+				D3F2E9C62B250F1B00FE807F /* Typing.tiff */,
+				D3F2E9C82B250F1B00FE807F /* Typing@2x.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3F2E9802B25024F00FE807F /* IMCore */ = {
+			isa = PBXGroup;
+			children = (
+				D3F2E9922B25026200FE807F /* _IDSIDQueryController.h */,
+				D3F2E99A2B25026200FE807F /* ETiOSMacBalloonPluginDataSource.h */,
+				D3F2E9A92B25026300FE807F /* FMFHandle.h */,
+				D3F2E99C2B25026200FE807F /* FMFLocation.h */,
+				D3F2E9982B25026200FE807F /* FMFSession.h */,
+				D3F2E9932B25026200FE807F /* FMFSessionDelegate-Protocol.h */,
+				D3F2E9872B25026200FE807F /* FMFXPCInternalClientProtocol-Protocol.h */,
+				D3F2E9AD2B25026300FE807F /* HWiOSMacBalloonDataSource.h */,
+				D3F2E9A12B25026200FE807F /* IDS.h */,
+				D3F2E9A32B25026200FE807F /* IDSDestination-Additions.h */,
+				D3F2E9832B25026200FE807F /* IDSIDQueryController.h */,
+				D3F2E9A72B25026200FE807F /* IDSInternalQueueController.h */,
+				D3F2E9AB2B25026300FE807F /* IMAccount.h */,
+				D3F2E99B2B25026200FE807F /* IMAccountController.h */,
+				D3F2E9BA2B25026300FE807F /* IMAggregateAttachmentMessagePartChatItem.h */,
+				D3F2E9822B25026200FE807F /* IMAttachmentMessagePartChatItem.h */,
+				D3F2E9AE2B25026300FE807F /* IMChat.h */,
+				D3F2E9902B25026200FE807F /* IMChatHistoryController.h */,
+				D3F2E98E2B25026200FE807F /* IMChatItem.h */,
+				D3F2E9992B25026200FE807F /* IMChatRegistry.h */,
+				D3F2E9AF2B25026300FE807F /* IMChatTranscriptItem-Protocol.h */,
+				D3F2E9AA2B25026300FE807F /* IMCore.h */,
+				D3F2E99E2B25026200FE807F /* IMDDController.h */,
+				D3F2E9B72B25026300FE807F /* IMDirectlyObservableObject.h */,
+				D3F2E9812B25026200FE807F /* IMDPersistentAttachmentController.h */,
+				D3F2E9862B25026200FE807F /* IMFileTransfer.h */,
+				D3F2E9892B25026200FE807F /* IMFileTransferCenter.h */,
+				D3F2E9842B25026200FE807F /* IMFMFSession.h */,
+				D3F2E99F2B25026200FE807F /* IMGUIDItem.h */,
+				D3F2E9962B25026200FE807F /* IMHandle.h */,
+				D3F2E9B02B25026300FE807F /* IMHandleAvailabilityManager.h */,
+				D3F2E9942B25026200FE807F /* IMHandleRegistrar.h */,
+				D3F2E9A42B25026200FE807F /* IMInlineReplyController.h */,
+				D3F2E99D2B25026200FE807F /* IMItem.h */,
+				D3F2E9952B25026200FE807F /* IMItemsController.h */,
+				D3F2E9B22B25026300FE807F /* IMMessage.h */,
+				D3F2E9A22B25026200FE807F /* IMMessageChatItem-Protocol.h */,
+				D3F2E9B42B25026300FE807F /* IMMessageChatItem.h */,
+				D3F2E9A82B25026200FE807F /* IMMessageItem-IMChat_Internal.h */,
+				D3F2E9A62B25026200FE807F /* IMMessageItem.h */,
+				D3F2E9B82B25026300FE807F /* IMMessagePartChatItem.h */,
+				D3F2E9882B25026200FE807F /* IMNickname.h */,
+				D3F2E9A02B25026200FE807F /* IMNicknameAvatarImage.h */,
+				D3F2E98B2B25026200FE807F /* IMNicknameController.h */,
+				D3F2E98D2B25026200FE807F /* IMPerson.h */,
+				D3F2E98A2B25026200FE807F /* IMPinnedConversationsController.h */,
+				D3F2E9B92B25026300FE807F /* IMPluginChatItemProtocol.h */,
+				D3F2E9AC2B25026300FE807F /* IMRemoteObjectCoding.h */,
+				D3F2E9B12B25026300FE807F /* IMSendProgressDelegate-Protocol.h */,
+				D3F2E9972B25026200FE807F /* IMService.h */,
+				D3F2E9BB2B25026300FE807F /* IMSystemMonitorListener-Protocol.h */,
+				D3F2E9A52B25026200FE807F /* IMTextMessagePartChatItem.h */,
+				D3F2E98C2B25026200FE807F /* IMTranscriptChatItem.h */,
+				D3F2E9B62B25026300FE807F /* IMTranscriptPluginChatItem.h */,
+				D3F2E9912B25026200FE807F /* IMTypingChatItem.h */,
+				D3F2E9BC2B25026300FE807F /* IMVisibleAssociatedMessageHost-Protocol.h */,
+				D3F2E9BD2B25026300FE807F /* INSpeakable-Protocol.h */,
+				D3F2E9852B25026200FE807F /* NSObject-Protocol.h */,
+				D3F2E9B32B25026300FE807F /* Presentity.h */,
+				D3F2E9B52B25026300FE807F /* SKStatusSubscriptionServiceDelegate-Protocol.h */,
+				D3F2E98F2B25026200FE807F /* TUConversationManagerDelegate-Protocol.h */,
+			);
+			name = IMCore;
+			sourceTree = "<group>";
+		};
+		D3F2EA232B2535D100FE807F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B2DA672B2A002D006AA5E0 /* IDS.framework */,
+				D3B2DA632B2A002D006AA5E0 /* IMCore.framework */,
+				D3B2DA662B2A002D006AA5E0 /* IMDPersistence.framework */,
+				D3B2DA642B2A002D006AA5E0 /* IMSharedUtilities.framework */,
+				D3B2DA652B2A002D006AA5E0 /* SocialAppsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D388E74E2093866B00441C31 /* TypeTelepathy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D388E7552093866B00441C31 /* Build configuration list for PBXNativeTarget "TypeTelepathy" */;
+			buildPhases = (
+				D388E74B2093866B00441C31 /* Sources */,
+				D388E74C2093866B00441C31 /* Frameworks */,
+				D388E74D2093866B00441C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypeTelepathy;
+			productName = WriteReceipt;
+			productReference = D388E74F2093866B00441C31 /* TypeTelepathy.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D388E7472093866B00441C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Shishkabibal;
+				TargetAttributes = {
+					D388E74E2093866B00441C31 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D388E74A2093866B00441C31 /* Build configuration list for PBXProject "TypeTelepathy" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D388E7462093866B00441C31;
+			productRefGroup = D388E7502093866B00441C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D388E74E2093866B00441C31 /* TypeTelepathy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D388E74D2093866B00441C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F2E9CB2B250F1B00FE807F /* Read@2x.tiff in Resources */,
+				D3F2E9D02B25194600FE807F /* Blank.tiff in Resources */,
+				D3F2E9CC2B250F1B00FE807F /* Typing@2x.tiff in Resources */,
+				D3F2E9CA2B250F1B00FE807F /* Typing.tiff in Resources */,
+				D3F2E9D12B25194600FE807F /* Blank@2x.tiff in Resources */,
+				D3B2DA622B2A000B006AA5E0 /* Icon.icns in Resources */,
+				D3F2E9CD2B250F1B00FE807F /* Read.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D388E74B2093866B00441C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D388E75E2093868300441C31 /* TypeTelepathy.m in Sources */,
+				D388E75D2093868300441C31 /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D388E7532093866B00441C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64e;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Debug;
+		};
+		D388E7542093866B00441C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64e;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Release;
+		};
+		D388E7562093866B00441C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TypeTelepathy",
+				);
+				INFOPLIST_FILE = TypeTelepathy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MacEnhance/Plugins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shishkabibal.TypeTelepathy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D388E7572093866B00441C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64e,
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TypeTelepathy",
+				);
+				INFOPLIST_FILE = TypeTelepathy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/MacEnhance/Plugins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shishkabibal.TypeTelepathy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D388E74A2093866B00441C31 /* Build configuration list for PBXProject "TypeTelepathy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D388E7532093866B00441C31 /* Debug */,
+				D388E7542093866B00441C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D388E7552093866B00441C31 /* Build configuration list for PBXNativeTarget "TypeTelepathy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D388E7562093866B00441C31 /* Debug */,
+				D388E7572093866B00441C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D388E7472093866B00441C31 /* Project object */;
+}
